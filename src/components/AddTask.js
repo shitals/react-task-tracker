@@ -16,7 +16,6 @@ const AddTask = (props) => {
         }
 
         const id = Math.floor(Math.random() * 10000) + 1
-        // const newTask = { id, ...task }
 
         props.saveTask({ id, text, day, reminder })
 
